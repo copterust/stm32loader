@@ -10,7 +10,7 @@ arm-none-eabi-objcopy -S -O binary build_elf out.bin
 ```
 
 * connect serial port to pins PA9/10
-* set BOOT0 pin to 1 and turn to power on/reset the device
+* set BOOT0 pin to 1 and turn power on/reset the device
 * burn resulting BIN-file:
 
 ```bash
